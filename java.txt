@@ -1,0 +1,9 @@
+pipeline{
+    agentany {
+        tools {
+	satges{
+	  satge{
+	      steps('checkout')
+    stage{
+       setps(build)
+          ssh 'mvn clean'
